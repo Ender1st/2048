@@ -1,0 +1,38 @@
+body {
+    display: flex;
+    flex-direction: column;
+}
+#gameBoard{
+    margin: auto;
+}
+#chessBoardBox {
+    border-radius: 25px;
+    width: 500px;
+    height: 500px;
+    background-color: #bbada0;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+#chessBox {
+    width: 96%;
+    height: 96%;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr 1fr;
+    grid-gap: 10px;
+}
+.pieceBox {
+    border-radius: 18px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 55px;
+    font-weight: bold;
+}
+button {
+    margin: auto;
+    width: 100px;
+    height: 50px;
+}
