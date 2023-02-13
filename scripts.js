@@ -14,7 +14,7 @@ function numf(toward) {
 function updateColor() {
     let pieces = $('#chessBox>.pieceBox');
     for(let k of pieces) {
-        var color = getColor(k.innerText);
+        let color = getColor(k.innerText);
         k.style.backgroundColor = color;
         if(color === 'black') k.style.color = 'white';
     }
